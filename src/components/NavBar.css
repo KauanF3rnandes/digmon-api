@@ -1,0 +1,25 @@
+* {
+    overflow-x: hidden;
+}
+
+.headerBg {
+    background-color: black;
+    height: 80px;
+}
+
+.navBar {
+    color: chocolate;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgNavBar {
+    height: 50px;
+    width: 150px;
+}
+
+.inputSearch {
+    width: 50px;
+    height: 50px;
+}

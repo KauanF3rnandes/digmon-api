@@ -1,0 +1,30 @@
+.BoxAlign {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 2rem;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardEdit {
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: background-image 0.3s ease;
+}
+
+.cardEdit:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: translateX(10px);
+    background-image: linear-gradient(to bottom, #ff0000, #0000ff);
+}
+
+
+
+
+
